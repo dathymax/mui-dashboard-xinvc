@@ -1,0 +1,32 @@
+:root {
+  --primary-color: #7c0340;
+  --sidebar-color: #eaeaea;
+}
+
+.header__hello {
+  font-size: 14px;
+}
+
+.header__name {
+  font-size: 19px;
+}
+
+.header__hello,
+.header__name {
+  text-align: right;
+  line-height: 25px;
+}
+
+.color {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-block;
+  margin: 10px;
+  border: none;
+}
+
+.container {
+  margin-top: 50px;
+}
